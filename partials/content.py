@@ -345,7 +345,7 @@ class MainContent(ft.UserControl):
                 ProjectItem(
                     title='Jogo da Forca', 
                     description='Jogo de adivinhação de palavras a partir de único tema - Frutas.',
-                    url='#',
+                    url='https://jogo-da-forca.onrender.com/',
                     col={'xs': 12, 'md': 6, 'lg': 4},
                 ),
             ],
