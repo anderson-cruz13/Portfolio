@@ -83,10 +83,10 @@ class SidebarContent(ft.UserControl):
                     leading=ft.Icon(name=ft.icons.CHECK, color=ft.colors.PRIMARY), 
                     title=ft.Text(value='Versionamento com GIT', theme_style=ft.TextThemeStyle.BODY_MEDIUM),
                 ),
-                ft.ListTile(
-                    leading=ft.Icon(name=ft.icons.CHECK, color=ft.colors.PRIMARY), 
-                    title=ft.Text(value='Django', theme_style=ft.TextThemeStyle.BODY_MEDIUM),
-                ),
+                #ft.ListTile(
+                #    leading=ft.Icon(name=ft.icons.CHECK, color=ft.colors.PRIMARY), 
+                #    title=ft.Text(value='Django', theme_style=ft.TextThemeStyle.BODY_MEDIUM),
+                #),
             ],
             alignment=ft.MainAxisAlignment.START,
             spacing=0,
@@ -98,7 +98,7 @@ class SidebarContent(ft.UserControl):
             style=ft.ButtonStyle(color=ft.colors.GREY),
             icon=ft.icons.DOWNLOAD,
             icon_color=ft.colors.GREY,
-            url='',
+            url='https://drive.google.com/uc?export=download&id=19cUDKbdpR3hyyiSbdMAn61IAVK1gtRYZ',
 
             # https://sites.google.com/site/gdocs2direct/?pli=1
         )

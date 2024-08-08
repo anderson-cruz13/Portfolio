@@ -328,17 +328,17 @@ class MainContent(ft.UserControl):
         projects = ft.ResponsiveRow(
             columns=12,
             controls=[
-                ProjectItem(
-                    title='Calculadora do iPhone', 
-                    description='Calculadora com o mesmo design do App Calculadora do iPhone.',
-                    url='#',
-                    col={'xs': 12, 'md': 6, 'lg': 4},
-                ),
+                #ProjectItem(
+                #    title='Calculadora do iPhone', 
+                #    description='Calculadora com o mesmo design do App Calculadora do iPhone.',
+                #    url='#',
+                #    col={'xs': 12, 'md': 6, 'lg': 4},
+                #),
 
                 ProjectItem(
                     title='ToDo App', 
                     description='Aplicativo para gerenciamento de tarefas com integração com banco de dados do SQLite.',
-                    url='#',
+                    url='https://todo-04of.onrender.com/',
                     col={'xs': 12, 'md': 6, 'lg': 4},
                 ),
 
