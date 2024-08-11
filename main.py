@@ -1,5 +1,5 @@
 import flet as ft
-from partials.sidebar import Sid6ebar
+from partials.sidebar import Sidebar
 from partials.content import MainContent
 
 # xs	<576px
